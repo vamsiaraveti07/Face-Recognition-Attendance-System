@@ -112,24 +112,24 @@ This system uses a webcam to capture and recognize student faces and log attenda
       99220042009,Vamsi Araveti,2025-07-03 17:54:15
  ## 🧠 System Architecture
  
- project/
-│── app.py                  # Flask backend
-│── register.py             # Face registration
-│── face_attendance.py      # Real-time attendance
-│── encodings.pkl           # Face encodings
-│── users.csv               # Login credentials
-│── students.csv            # Student details
-│── attendance.csv          # Attendance log
-│── templates/
-│   ├── admin_dashboard.html
-│   ├── student_dashboard.html
-│   ├── create_credentials.html
-│   ├── add_student.html
-│   ├── profile pages...
-│── static/
-    ├── dashboard.css
-    ├── admin.css
-    ├── student.css
+     project/
+    │── app.py                  # Flask backend
+    │── register.py             # Face registration
+    │── face_attendance.py      # Real-time attendance
+    │── encodings.pkl           # Face encodings
+    │── users.csv               # Login credentials
+    │── students.csv            # Student details
+    │── attendance.csv          # Attendance log
+    │── templates/
+    │   ├── admin_dashboard.html
+    │   ├── student_dashboard.html
+    │   ├── create_credentials.html
+    │   ├── add_student.html
+    │   ├── profile pages...
+    │── static/
+        ├── dashboard.css
+        ├── admin.css
+        ├── student.css
     
 ## requirements.tx
 
